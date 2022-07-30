@@ -1,0 +1,1 @@
+escribe un programa en javascript que pida una cadena de caracteres y elimine los espacios y luego se muestre en consola.

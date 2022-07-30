@@ -1,0 +1,1 @@
+Escribe un progama en Java Script que pida como entrada una cadena de caractres y luego la muestre en consola alrreves

@@ -1,0 +1,12 @@
+h1, h2, p {
+    text-align: center;
+}
+
+.boton {
+    color: rgb(9, 9, 96);
+    border-radius: 2px;
+    border: 2px solid black;
+}
+option {
+    color: red;
+}

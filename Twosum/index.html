@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwoSum</title>
+    <link>
+</head>
+<body>
+    <h1>Add two number from Array</h1>
+    <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+        <strong> only work for numbers betwen 0 to 9.</strong>
+        You may assume that each input would have exactly one solution, and you may not use the same element twice.
+        
+        You can return the answer in any order.</p>
+    <h2>Example 1:</h2>
+        <p>Input: nums = [2,7,11,15], target = 9 ==> Output: [0,1]<br>
+        Explanation: Because nums[0] + nums[1] == 9 ==> we return [0, 1].</p>
+    <h2>Example 2:</h2>
+        <p>Input: nums = [3,2,4], target = 6 ==> output: [1,2]</p>
+    <h2>Example 3:</h2>
+        <p>Input: nums = [3,3], target = 6 ==> Output: [0,1]</p>
+    <label for="arr">Intoduce los elementos del array separado por comas ejemplo:1,2,3,n</label><br>
+    <input type="text" id="arr" name="arr" ><br>
+    <label for="tar">Intoduce el target </label><br>
+    <input type="number" id="tar" name="tar" ><br>
+    <input type="button" value="calcula la suma" onclick="twosum()"> 
+    <hr>
+    <h2>RESULTADO ESTOS SON LOS INDICEN DEL ARREGLO</h2>
+    <p id="salida"></p>
+    <script src="./twosum.js"></script>
+
+</body>
+</html>
